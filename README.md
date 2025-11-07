@@ -1,8 +1,8 @@
 # Homework-1-CacheForge-FunSearch-Framework
 This assignment introduces an LLM-guided, evolutionary workflow (CacheForge) for discovering cache replacement policies that improve average IPC across representative workloads.
 
-**Final Policy**: LIME (LLM-Inferred Memory Exploiter) \n
-**Key Result:** Achieved a 1.042 Geomean IPC Speedup over the LRU baseline in single-core tests.\n
+**Final Policy**: LIME (LLM-Inferred Memory Exploiter)  
+**Key Result:** Achieved a 1.042 Geomean IPC Speedup over the LRU baseline in single-core tests.  
 **Budget Compliance:** The original high-performance policy was 20.5 MB over the 64 KiB budget. A complete Pruned Version is provided and analyzed in the report to satisfy area constraints.
 
 ### Required Artifacts
@@ -24,7 +24,7 @@ This project was built and validated using the ChampSim framework on a Unix/Linu
 
 #### Step 1: Clone the Repository
 
-git clone https://github.com/idetuk/Homework-1-CacheForge-FunSearch-Framework/ \n
+git clone https://github.com/idetuk/Homework-1-CacheForge-FunSearch-Framework/  
 cd Homework-1-CacheForge-FunSearch-Framework
 
 #### Step 2: Run the Reproduction Script
