@@ -24,6 +24,11 @@ This project was built and validated using the ChampSim framework on a Unix/Linu
 
 #### Step 1: Clone the Repository
 
-```bash
-git clone [YOUR-REPO-LINK]
-cd [YOUR-REPO-FOLDER]
+git clone https://github.com/idetuk/Homework-1-CacheForge-FunSearch-Framework/
+cd Homework-1-CacheForge-FunSearch-Framework
+
+#### Step 2: Run the Reproduction Script
+./reproduce.sh
+
+Expected Output
+The script will generate log files (*-config*.log) and will finish by printing a summary table containing the final IPC results for all 14 test cases (10 single-core, 4 multi-core) for both LRU and LIME.
